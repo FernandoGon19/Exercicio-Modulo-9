@@ -1,0 +1,65 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+.container {
+    padding-top: 150px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(68, 15, 104);
+    padding: 20px;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(26, 199, 26);
+    border: none;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+form {
+    padding-top: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(165, 93, 216);
+    color: white;
+    display: none;
+}
+
+input {
+    margin-top: 15px;
+    background-color: #ffffff8e;
+    padding: 10px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+p {
+    padding: 15px;
+    background-color: #ccc2c2b7;
+}
+
+#cancelar {
+    background-color: red;
+    margin-left: 5px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
